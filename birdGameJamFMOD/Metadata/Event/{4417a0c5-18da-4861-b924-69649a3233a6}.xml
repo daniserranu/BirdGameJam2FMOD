@@ -5,7 +5,7 @@
 			<value>sfx_bird_happy</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{0f27d5ec-1011-4498-a47b-aecd31f4feb2}</destination>
@@ -59,11 +59,18 @@
 	<object class="EventAutomatableProperties" id="{38d82810-05a0-4070-8837-ce745e77f118}" />
 	<object class="MarkerTrack" id="{c3a18eb1-279f-461b-8657-5a4a581c0558}" />
 	<object class="GroupTrack" id="{a5d4ec02-7e38-4eac-8561-fa99315114b1}">
+		<relationship name="modules">
+			<destination>{cf1acf8d-ada4-4b2a-912e-54d8bd6b3e86}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{1a23cc55-b7c5-4a96-aaba-b544b815179a}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{f8e60e4d-7e0f-4f01-ae80-5630d3c75862}" />
+	<object class="Timeline" id="{f8e60e4d-7e0f-4f01-ae80-5630d3c75862}">
+		<relationship name="modules">
+			<destination>{cf1acf8d-ada4-4b2a-912e-54d8bd6b3e86}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{7f752722-3bc9-4f79-a57d-dff67d81b0e5}">
 		<relationship name="effectChain">
 			<destination>{aabb94dd-9f2d-405b-acfa-382133259630}</destination>
@@ -81,7 +88,18 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1b0ff5c2-b038-42c5-a1c2-02d517da08c1}" />
+	<object class="SingleSound" id="{cf1acf8d-ada4-4b2a-912e-54d8bd6b3e86}">
+		<property name="length">
+			<value>2</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{e68ddbf3-346c-4d33-831d-f6642291398f}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{1a23cc55-b7c5-4a96-aaba-b544b815179a}">
+		<property name="volume">
+			<value>-7.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
