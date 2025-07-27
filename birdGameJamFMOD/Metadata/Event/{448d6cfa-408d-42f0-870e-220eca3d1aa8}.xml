@@ -61,7 +61,7 @@
 			<value>1</value>
 		</property>
 		<property name="triggerCooldown">
-			<value>80</value>
+			<value>130</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{b305e897-2ebc-4f8b-9518-9f5b0076c73c}" />
@@ -116,7 +116,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{e7acd03d-ee79-49df-b075-b7c8e1e9b311}">
 		<property name="volume">
-			<value>-9</value>
+			<value>-17</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
