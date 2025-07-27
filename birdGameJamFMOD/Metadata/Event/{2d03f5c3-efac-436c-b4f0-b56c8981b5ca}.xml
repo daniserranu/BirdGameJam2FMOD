@@ -5,7 +5,7 @@
 			<value>sfx_bird_ sairadelenco</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a6bcb92d-653f-4258-af25-5e221e599fae}</destination>
@@ -59,11 +59,18 @@
 	<object class="EventAutomatableProperties" id="{d2f8e82e-a374-45a7-b043-e044eeacc61e}" />
 	<object class="MarkerTrack" id="{08754b60-9cdc-48a2-a0e7-d8cd40648c7f}" />
 	<object class="GroupTrack" id="{66b38dce-ab3e-4ad3-956b-9fb874f52738}">
+		<relationship name="modules">
+			<destination>{2e94516a-dc20-49b1-bb12-435ad59258ff}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{b831c6c7-628c-45dd-91ec-aabd2e4c65fc}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{0d1b8a02-e413-4b62-93f4-aa7f2bb1bee4}" />
+	<object class="Timeline" id="{0d1b8a02-e413-4b62-93f4-aa7f2bb1bee4}">
+		<relationship name="modules">
+			<destination>{2e94516a-dc20-49b1-bb12-435ad59258ff}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{c5e1e558-d80e-447e-af75-c40078fe8764}">
 		<relationship name="effectChain">
 			<destination>{1b0c7783-a9b9-46f2-b8a5-c67e1a636343}</destination>
@@ -81,6 +88,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{137c1742-e789-4555-93ee-791477f6c874}" />
+	<object class="SingleSound" id="{2e94516a-dc20-49b1-bb12-435ad59258ff}">
+		<property name="start">
+			<value>5.5511151231257827e-17</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{65ce3415-6b26-4a1a-a118-49df553f970c}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{b831c6c7-628c-45dd-91ec-aabd2e4c65fc}">
 		<property name="name">
 			<value>Audio 1</value>

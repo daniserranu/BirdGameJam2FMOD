@@ -5,7 +5,7 @@
 			<value>sfx_bird_ gaviaoreal</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a6bcb92d-653f-4258-af25-5e221e599fae}</destination>
@@ -59,11 +59,18 @@
 	<object class="EventAutomatableProperties" id="{52ac6c16-61ac-430a-b65c-1c37ef6f58ff}" />
 	<object class="MarkerTrack" id="{e1dc60be-672d-41d7-8f2b-0d149ffb7ed2}" />
 	<object class="GroupTrack" id="{2b646235-fd91-4cc7-a547-937101d0b4a7}">
+		<relationship name="modules">
+			<destination>{aa7b9967-c193-47a5-a984-a0a485e07d2c}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{6de186aa-db18-4db5-8ddf-f4e995e14e85}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{f2789e1e-214e-4b44-a15c-79e2fceace00}" />
+	<object class="Timeline" id="{f2789e1e-214e-4b44-a15c-79e2fceace00}">
+		<relationship name="modules">
+			<destination>{aa7b9967-c193-47a5-a984-a0a485e07d2c}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{ae5c3d9e-86a0-4d4d-a8d1-ce31c9cd5670}">
 		<relationship name="effectChain">
 			<destination>{564c9e85-c5ac-475c-94f6-3310bd7d55db}</destination>
@@ -81,6 +88,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{a4618495-2424-4014-af4c-03f589c94432}" />
+	<object class="SingleSound" id="{aa7b9967-c193-47a5-a984-a0a485e07d2c}">
+		<property name="length">
+			<value>1.5</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{37671020-4f22-4228-8f3f-4f8880e83168}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{6de186aa-db18-4db5-8ddf-f4e995e14e85}">
 		<property name="name">
 			<value>Audio 1</value>
