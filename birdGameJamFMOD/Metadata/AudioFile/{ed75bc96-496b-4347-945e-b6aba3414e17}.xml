@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{ed75bc96-496b-4347-945e-b6aba3414e17}">
+		<property name="assetPath">
+			<value>amb_bird_ urubudecabecavermelha_02.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>5.5</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ebe75c0b-13b5-4eed-b71f-6c5f3edf07df}</destination>
+		</relationship>
+	</object>
+</objects>
